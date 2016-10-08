@@ -1,0 +1,29 @@
+
+a {
+	color: red;
+}
+
+li {
+	margin-bottom: 30px;
+}
+
+.col-lg-12{
+	background-color: red;
+}
+
+.col-lg-4{
+	background-color: blue;
+}
+
+.col-lg-8{
+	background-color: green;
+}
+
+.sidebar-link{
+	/*color: white;
+	text-decoration: none;*/
+	background: red;
+	/*font-size: 16px;
+	padding: 10px 30px;
+	border-radius: 5px;*/
+}
