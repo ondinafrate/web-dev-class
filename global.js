@@ -21,30 +21,34 @@ $(document).ready(function(){
 	
 		})
 
+			$("ul li a").css({"font-size":"42px"})
+
+		})
+
 		//JQuery
 		$(".btn-primary").on("click", function(){
 
 			var p = $("<p>Welcome</p>")
 			p.addClass("red")
-			$("dummy-text").append(p);
+			$(".dummy-text").append(p);
 
 		})
 
-		// JS
-		// var btn = document.getElementById("cl")
+		JS
+		var btn = document.getElementById("cl")
 
-		// btn.addEventListener("click", function(){
+		btn.addEventListener("click", function(){
 
-		// 	var p = document.createElement("p")
-		// 	var text = document.createTextNode("welcome")
+			var p = document.createElement("p")
+			var text = document.createTextNode("welcome")
 
-		// 	p.appendChild(text)
-		// 	p.className = 'red'
+			p.appendChild(text)
+			p.className = 'red'
 
-		// 	var bigpara = document.getElementById("append")
-		// 	bigpara.appendChild(p)
+			var bigpara = document.getElementById("append")
+			bigpara.appendChild(p)
 
-		// })
+		})
 
 
 })
